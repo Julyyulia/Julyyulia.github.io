@@ -1,11 +1,14 @@
 body {
-  background-color: #000;
+  background-color: #f2f2f2;
 }
 h1,
 h2,
 h3,
 p {
-  color: #ffffff;
+  color: #47455d;
+}
+.hero .row {
+  align-items: center;
 }
 .sosmed {
   display: flex;
@@ -18,13 +21,16 @@ p {
   justify-content: center;
   display: flex;
 }
+a {
+  text-align: center;
+}
 .container {
   margin-top: 100px !important;
   max-width: 100%;
 }
 button {
-  background-color: #a13333;
-  color: #fff;
+  background-color: #f2f2f2;
+  color: #47455d;
   height: 45px;
   width: 135px;
   border-radius: 50px;
@@ -88,12 +94,12 @@ button.carousel-control-next {
 }
 
 a {
-  color: #fff !important;
+  color: #47455d !important;
 }
 
 .navbar {
-  background-color: #000 !important;
   padding: 20px 35px;
+  background: #f2f2f2 !important;
 }
 h2,
 h3,
@@ -109,7 +115,8 @@ h3 {
   width: 100px;
 }
 .main {
-  margin: 0 70px;
+  max-width: 1440px;
+  margin: auto;
 }
 .carousel-control-prev {
   left: -77px;
