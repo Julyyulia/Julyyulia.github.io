@@ -41,20 +41,6 @@ body .skill {
   position: relative;
 }
 
-.aboutme:after,
-.skill:after {
-  content: "hello word";
-  display: block;
-  width: 365px;
-  height: 27px;
-  background-color: #b3541e;
-  position: absolute;
-  bottom: -50px;
-  left: 0;
-  top: 20px;
-  z-index: -1;
-  color: transparent;
-}
 .gambar {
   display: flex;
   justify-content: end;
@@ -126,7 +112,7 @@ h3 {
   right: -77px;
 }
 .cr p.text-center {
-  background: #a13333;
+  background: #fff;
   margin: 0;
 }
 .navbar ul li {
